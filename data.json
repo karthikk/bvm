@@ -1,0 +1,1094 @@
+{
+  "site_info": {
+    "title": "Brahma Vidya Mandir",
+    "description": "Learning Portal",
+    "last_updated": "2025-08-23"
+  },
+  "batches": {
+    "dhanyosi": {
+      "name": "Dhanyosi Batch",
+      "description": "2021-2025",
+      "categories": {
+        "prakaranam": {
+          "name": "Prakaranam",
+          "description": "Introductory and foundational texts",
+          "texts": {
+            "tattvabodham": {
+              "name": "Tattvabodham",
+              "description": "Tattvabodham study",
+              "playlists": [
+                {
+                  "name": "Tattvabodham",
+                  "playlist_id": "PL7qtWZUUoJN-7nBeVc6nb0aN0C3hcpGyN",
+                  "description": "Tattvabodham study",
+                  "video_count": 21
+                }
+              ]
+            },
+            "vivekachudamani": {
+              "name": "Vivekachudamani",
+              "description": "Vivekachudamani study",
+              "playlists": [
+                {
+                  "name": "Vivekachudamani",
+                  "playlist_id": "PL7qtWZUUoJN8ErU9e2Sd8ogaQGhUE3n1u",
+                  "description": "Vivekachudamani study",
+                  "video_count": 143
+                }
+              ]
+            },
+            "introduction_to_vedanta": {
+              "name": "Introduction To Vedanta",
+              "description": "Introduction To Vedanta study",
+              "playlists": [
+                {
+                  "name": "Introduction To Vedanta",
+                  "playlist_id": "PL7qtWZUUoJN_cU9qlIy0IpMTxCTAqe3F-",
+                  "description": "Introduction To Vedanta study",
+                  "video_count": 14
+                }
+              ]
+            },
+            "svsss": {
+              "name": "SVSSS",
+              "description": "SVSSS study",
+              "playlists": [
+                {
+                  "name": "SVSSS",
+                  "playlist_id": "PL7qtWZUUoJN_KekSBZ8fF35DhX0fOQCgZ",
+                  "description": "SVSSS study",
+                  "video_count": 34
+                }
+              ]
+            },
+            "aparoksha_anubhuti": {
+              "name": "Aparoksha Anubhuti",
+              "description": "Aparoksha Anubhuti study",
+              "playlists": [
+                {
+                  "name": "Aparoksha Anubhuti",
+                  "playlist_id": "PL7qtWZUUoJN-gIA65OYeEmiuvNRB_YrWJ",
+                  "description": "Aparoksha Anubhuti study",
+                  "video_count": 35
+                }
+              ]
+            },
+            "jiva_yatra": {
+              "name": "Jiva Yatra",
+              "description": "Jiva Yatra study",
+              "playlists": [
+                {
+                  "name": "Jiva Yatra",
+                  "playlist_id": "PL7qtWZUUoJN_RTwbnkAOAYXQoOGxjCJt9",
+                  "description": "Jiva Yatra study",
+                  "video_count": 12
+                }
+              ]
+            },
+            "bhaja_govindam": {
+              "name": "Bhaja Govindam",
+              "description": "Bhaja Govindam study",
+              "playlists": [
+                {
+                  "name": "Bhaja Govindam",
+                  "playlist_id": "PL7qtWZUUoJN_-M5DV_UuTKdByTMcvD_ed",
+                  "description": "Bhaja Govindam study",
+                  "video_count": 10
+                }
+              ]
+            },
+            "dashashloki": {
+              "name": "Dashashloki",
+              "description": "Dashashloki study",
+              "playlists": [
+                {
+                  "name": "Dashashloki",
+                  "playlist_id": "PL7qtWZUUoJN-UEFvGfM_0OO5tspf7BnPp",
+                  "description": "Dashashloki study",
+                  "video_count": 4
+                }
+              ]
+            },
+            "manisha_panchakam": {
+              "name": "Manisha Panchakam",
+              "description": "Manisha Panchakam study",
+              "playlists": [
+                {
+                  "name": "Manisha Panchakam",
+                  "playlist_id": "PL7qtWZUUoJN8xpX2u4P18MA9WUsxj3uo5",
+                  "description": "Manisha Panchakam study",
+                  "video_count": 10
+                }
+              ]
+            },
+            "panchadasi": {
+              "name": "Panchadasi",
+              "description": "Panchadasi study",
+              "playlists": [
+                {
+                  "name": "Panchadasi",
+                  "playlist_id": "PL7qtWZUUoJN_NPfp87VSR_8bkWcuQ1SSQ",
+                  "description": "Panchadasi study",
+                  "video_count": 61
+                }
+              ]
+            },
+            "ddv": {
+              "name": "DDV",
+              "description": "DDV study",
+              "playlists": [
+                {
+                  "name": "DDV",
+                  "playlist_id": "PL7qtWZUUoJN84coOtNfbVIel5_ZJsWM7D",
+                  "description": "DDV study",
+                  "video_count": 22
+                }
+              ]
+            },
+            "kamalajadayithashtakam": {
+              "name": "Kamalajadayithashtakam",
+              "description": "Kamalajadayithashtakam study",
+              "playlists": [
+                {
+                  "name": "Kamalajadayithashtakam",
+                  "playlist_id": "PL7qtWZUUoJN-lRVg30XB2ZiDy3p_S0AD6",
+                  "description": "Kamalajadayithashtakam study",
+                  "video_count": 3
+                }
+              ]
+            },
+            "dakshinamurty_stotram__manasollasam": {
+              "name": "Dakshinamurty Stotram | Manasollasam",
+              "description": "Dakshinamurty Stotram | Manasollasam study",
+              "playlists": [
+                {
+                  "name": "Dakshinamurty Stotram | Manasollasam",
+                  "playlist_id": "PL7qtWZUUoJN9tgY3-UHmRja793_pTx964",
+                  "description": "Dakshinamurty Stotram | Manasollasam study",
+                  "video_count": 32
+                }
+              ]
+            },
+            "atmabodham": {
+              "name": "Atmabodham",
+              "description": "Atmabodham study",
+              "playlists": [
+                {
+                  "name": "Atmabodham",
+                  "playlist_id": "PL7qtWZUUoJN9v_w-fLicguq8BXCUf3mxU",
+                  "description": "Atmabodham study",
+                  "video_count": 22
+                }
+              ]
+            },
+            "kashi_panchakam": {
+              "name": "Kashi Panchakam",
+              "description": "Kashi Panchakam study",
+              "playlists": [
+                {
+                  "name": "Kashi Panchakam",
+                  "playlist_id": "PL7qtWZUUoJN9sBeHamW08-_PDS4N7Wrvz",
+                  "description": "Kashi Panchakam study",
+                  "video_count": 3
+                }
+              ]
+            },
+            "vakya_vritti": {
+              "name": "Vakya Vritti",
+              "description": "Vakya Vritti study",
+              "playlists": [
+                {
+                  "name": "Vakya Vritti",
+                  "playlist_id": "PL7qtWZUUoJN-SYAhmkzdWdkJhAEjM58NW",
+                  "description": "Vakya Vritti study",
+                  "video_count": 18
+                }
+              ]
+            },
+            "soundarya_lahari": {
+              "name": "Soundarya Lahari",
+              "description": "Soundarya Lahari study",
+              "playlists": [
+                {
+                  "name": "Soundarya Lahari",
+                  "playlist_id": "PL7qtWZUUoJN9jY-HYbTEIT4a3USmXjY3h",
+                  "description": "Soundarya Lahari study",
+                  "video_count": 12
+                }
+              ]
+            },
+            "advaita_makarandam": {
+              "name": "Advaita Makarandam",
+              "description": "Advaita Makarandam study",
+              "playlists": [
+                {
+                  "name": "Advaita Makarandam",
+                  "playlist_id": "PL7qtWZUUoJN8fhF6gzeBUFU7LqHemO_yH",
+                  "description": "Advaita Makarandam study",
+                  "video_count": 13
+                }
+              ]
+            }
+          }
+        },
+        "upanishad": {
+          "name": "Upanishads",
+          "description": "Ancient wisdom texts - the culmination of Vedic knowledge",
+          "texts": {
+            "taittiriya_upanishad": {
+              "name": "Taittiriya Upanishad",
+              "description": "Taittiriya Upanishad study",
+              "playlists": [
+                {
+                  "name": "Taittiriya Upanishad",
+                  "playlist_id": "PL7qtWZUUoJN-nT5Ax6xNof4KVLRJGNYuq",
+                  "description": "Taittiriya Upanishad study",
+                  "video_count": 52
+                }
+              ]
+            },
+            "kenopanishad": {
+              "name": "Kenopanishad",
+              "description": "Kenopanishad study",
+              "playlists": [
+                {
+                  "name": "Kenopanishad",
+                  "playlist_id": "PL7qtWZUUoJN8zVzRvHRkwWYyYf2J7Pwwa",
+                  "description": "Kenopanishad study",
+                  "video_count": 12
+                }
+              ]
+            },
+            "kathopanishad": {
+              "name": "Kathopanishad",
+              "description": "Kathopanishad study",
+              "playlists": [
+                {
+                  "name": "Kathopanishad",
+                  "playlist_id": "PL7qtWZUUoJN910IVaIX74K3BFaPJA0YDO",
+                  "description": "Kathopanishad study",
+                  "video_count": 44
+                }
+              ]
+            },
+            "prashnopanishad": {
+              "name": "Prashnopanishad",
+              "description": "Prashnopanishad study",
+              "playlists": [
+                {
+                  "name": "Prashnopanishad",
+                  "playlist_id": "PL7qtWZUUoJN-KjPtp6dkKGsQ-DIsZSk-Z",
+                  "description": "Prashnopanishad study",
+                  "video_count": 20
+                }
+              ]
+            },
+            "mundaka_upanishad": {
+              "name": "Mundaka Upanishad",
+              "description": "Mundaka Upanishad study",
+              "playlists": [
+                {
+                  "name": "Mundaka Upanishad",
+                  "playlist_id": "PL7qtWZUUoJN-sJxtZcojI6E5HhX4WKj1M",
+                  "description": "Mundaka Upanishad study",
+                  "video_count": 37
+                }
+              ]
+            },
+            "mandukya_upanishad": {
+              "name": "Mandukya Upanishad",
+              "description": "Mandukya Upanishad study",
+              "playlists": [
+                {
+                  "name": "Mandukya Upanishad",
+                  "playlist_id": "PL7qtWZUUoJN_zMEvDbzZ2R03XrkTp-r_c",
+                  "description": "Mandukya Upanishad study",
+                  "video_count": 21
+                }
+              ]
+            },
+            "mandukya_upanishad___vaithatya_prakaranam": {
+              "name": "Mandukya Upanishad - Vaithatya Prakaranam",
+              "description": "Mandukya Upanishad - Vaithatya Prakaranam study",
+              "playlists": [
+                {
+                  "name": "Mandukya Upanishad - Vaithatya Prakaranam",
+                  "playlist_id": "PL7qtWZUUoJN-sw3YM0_x1WPqxxVqbJ_8_",
+                  "description": "Mandukya Upanishad - Vaithatya Prakaranam study",
+                  "video_count": 10
+                }
+              ]
+            },
+            "mandukya_upanishad___advaita_prakaranam": {
+              "name": "Mandukya Upanishad - Advaita Prakaranam",
+              "description": "Mandukya Upanishad - Advaita Prakaranam study",
+              "playlists": [
+                {
+                  "name": "Mandukya Upanishad - Advaita Prakaranam",
+                  "playlist_id": "PL7qtWZUUoJN_D_c4lAN_I5tdKfW6cqWCa",
+                  "description": "Mandukya Upanishad - Advaita Prakaranam study",
+                  "video_count": 18
+                }
+              ]
+            },
+            "kaivalya_upanishad": {
+              "name": "Kaivalya Upanishad",
+              "description": "Kaivalya Upanishad study",
+              "playlists": [
+                {
+                  "name": "Kaivalya Upanishad",
+                  "playlist_id": "PL7qtWZUUoJN9lPZyt9-1Xw4uqnjYbv7kX",
+                  "description": "Kaivalya Upanishad study",
+                  "video_count": 14
+                }
+              ]
+            },
+            "aitareya_upanishad": {
+              "name": "Aitareya Upanishad",
+              "description": "Aitareya Upanishad study",
+              "playlists": [
+                {
+                  "name": "Aitareya Upanishad",
+                  "playlist_id": "PL7qtWZUUoJN8l9CG77zV_x892jLpHYBVP",
+                  "description": "Aitareya Upanishad study",
+                  "video_count": 15
+                }
+              ]
+            },
+            "mandukya_upanishad___alatashanti_prakaranam": {
+              "name": "Mandukya Upanishad - Alatashanti Prakaranam",
+              "description": "Mandukya Upanishad - Alatashanti Prakaranam study",
+              "playlists": [
+                {
+                  "name": "Mandukya Upanishad - Alatashanti Prakaranam",
+                  "playlist_id": "PL7qtWZUUoJN8WTlBQTwxM-HNEho5u0kEt",
+                  "description": "Mandukya Upanishad - Alatashanti Prakaranam study",
+                  "video_count": 31
+                }
+              ]
+            },
+            "chandogya_upanishad": {
+              "name": "Chandogya Upanishad",
+              "description": "Chandogya Upanishad study",
+              "playlists": [
+                {
+                  "name": "Chandogya Upanishad",
+                  "playlist_id": "PL7qtWZUUoJN_w3-oai-AQrQyfogvhCC2F",
+                  "description": "Chandogya Upanishad study",
+                  "video_count": 65
+                }
+              ]
+            },
+            "ishavasya_upanishad": {
+              "name": "Ishavasya Upanishad",
+              "description": "Ishavasya Upanishad study",
+              "playlists": [
+                {
+                  "name": "Ishavasya Upanishad",
+                  "playlist_id": "PL7qtWZUUoJN-fHSCHo7kQjj80hjkjuuRP",
+                  "description": "Ishavasya Upanishad study",
+                  "video_count": 9
+                }
+              ]
+            },
+            "brhadaranyaka_upanishad": {
+              "name": "Brhadaranyaka Upanishad",
+              "description": "Brhadaranyaka Upanishad study",
+              "playlists": [
+                {
+                  "name": "Brhadaranyaka Upanishad",
+                  "playlist_id": "PL7qtWZUUoJN8JvnpnKob9SkEdPa_Ki29v",
+                  "description": "Brhadaranyaka Upanishad study",
+                  "video_count": 150
+                }
+              ]
+            },
+            "swetashwatara_upanishad": {
+              "name": "Swetashwatara Upanishad",
+              "description": "Swetashwatara Upanishad study",
+              "playlists": [
+                {
+                  "name": "Swetashwatara Upanishad",
+                  "playlist_id": "PL7qtWZUUoJN_hTmNunrfqJEoiULsc38zF",
+                  "description": "Swetashwatara Upanishad study",
+                  "video_count": 11
+                }
+              ]
+            }
+          }
+        },
+        "bhagawad_gita": {
+          "name": "Bhagavad Gita",
+          "description": "The song of the Lord - practical spirituality",
+          "texts": {
+            "bhagavad_gita": {
+              "name": "Bhagavad Gita",
+              "description": "Bhagavad Gita study",
+              "playlists": [
+                {
+                  "name": "Bhagavad Gita",
+                  "playlist_id": "PL7qtWZUUoJN_6oslVhuNEJp9ZFHyzPwVO",
+                  "description": "Bhagavad Gita study",
+                  "video_count": 199
+                }
+              ]
+            }
+          }
+        },
+        "ongoing": {
+          "name": "Ongoing",
+          "description": "Current studies across different texts",
+          "texts": {
+            "panchadasi": {
+              "name": "Panchadasi",
+              "description": "Panchadasi study",
+              "playlists": [
+                {
+                  "name": "Panchadasi",
+                  "playlist_id": "PL7qtWZUUoJN_NPfp87VSR_8bkWcuQ1SSQ",
+                  "description": "Panchadasi study",
+                  "video_count": 61,
+                  "latest_video_id": "N4G52zDsFXc"
+                }
+              ]
+            },
+            "brahmasutram": {
+              "name": "Brahmasutram",
+              "description": "Brahmasutram study",
+              "playlists": [
+                {
+                  "name": "Brahmasutram",
+                  "playlist_id": "PL7qtWZUUoJN9SUYzes8bADGwBu1oRSTR0",
+                  "description": "Brahmasutram study",
+                  "video_count": 80,
+                  "latest_video_id": "oHN2iUe-6IM"
+                }
+              ]
+            },
+            "swetashwatara_upanishad": {
+              "name": "Swetashwatara Upanishad",
+              "description": "Swetashwatara Upanishad study",
+              "playlists": [
+                {
+                  "name": "Swetashwatara Upanishad",
+                  "playlist_id": "PL7qtWZUUoJN_hTmNunrfqJEoiULsc38zF",
+                  "description": "Swetashwatara Upanishad study",
+                  "video_count": 11,
+                  "latest_video_id": "Uaa82_0JOvM"
+                }
+              ]
+            }
+          }
+        },
+        "brahmasutram": {
+          "name": "Brahmasutram",
+          "description": "The aphorisms of Brahman - systematic philosophy",
+          "texts": {
+            "brahmasutram": {
+              "name": "Brahmasutram",
+              "description": "Brahmasutram study",
+              "playlists": [
+                {
+                  "name": "Brahmasutram",
+                  "playlist_id": "PL7qtWZUUoJN9SUYzes8bADGwBu1oRSTR0",
+                  "description": "Brahmasutram study",
+                  "video_count": 80
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "jignasu": {
+      "name": "Jignasu Batch",
+      "description": "2024-2028",
+      "categories": {
+        "prakaranam": {
+          "name": "Prakaranam",
+          "description": "Introductory and foundational texts",
+          "texts": {
+            "introduction_to_vedanta": {
+              "name": "Introduction To Vedanta",
+              "description": "Introduction To Vedanta study",
+              "playlists": [
+                {
+                  "name": "Introduction To Vedanta",
+                  "playlist_id": "PL7qtWZUUoJN-ucNrXIv8HOo--oo8iDL36",
+                  "description": "Introduction To Vedanta study",
+                  "video_count": 3
+                }
+              ]
+            },
+            "tattvabodham": {
+              "name": "Tattvabodham",
+              "description": "Tattvabodham study",
+              "playlists": [
+                {
+                  "name": "Tattvabodham",
+                  "playlist_id": "PL7qtWZUUoJN87z7ShVsgyJR-xBqFU8cK5",
+                  "description": "Tattvabodham study",
+                  "video_count": 33
+                }
+              ]
+            },
+            "sadhana_panchakam": {
+              "name": "Sadhana Panchakam",
+              "description": "Sadhana Panchakam study",
+              "playlists": [
+                {
+                  "name": "Sadhana Panchakam",
+                  "playlist_id": "PL7qtWZUUoJN9i1PvdFwcLX4qq38ilz7GW",
+                  "description": "Sadhana Panchakam study",
+                  "video_count": 9
+                }
+              ]
+            },
+            "prashnottara_ratnamalika": {
+              "name": "Prashnottara Ratnamalika",
+              "description": "Prashnottara Ratnamalika study",
+              "playlists": [
+                {
+                  "name": "Prashnottara Ratnamalika",
+                  "playlist_id": "PL7qtWZUUoJN99gtAdNOlcPM5hvq0fhsHg",
+                  "description": "Prashnottara Ratnamalika study",
+                  "video_count": 18
+                }
+              ]
+            },
+            "bhaja_govindam": {
+              "name": "Bhaja Govindam",
+              "description": "Bhaja Govindam study",
+              "playlists": [
+                {
+                  "name": "Bhaja Govindam",
+                  "playlist_id": "PL7qtWZUUoJN-VKYVThNbK6lk4wU6Ar_N0",
+                  "description": "Bhaja Govindam study",
+                  "video_count": 14
+                }
+              ]
+            }
+          }
+        },
+        "upanishad": {
+          "name": "Upanishads",
+          "description": "Ancient wisdom texts - the culmination of Vedic knowledge",
+          "texts": {
+            "mundaka_upanishad": {
+              "name": "Mundaka Upanishad",
+              "description": "Mundaka Upanishad study",
+              "playlists": [
+                {
+                  "name": "Mundaka Upanishad",
+                  "playlist_id": "PL7qtWZUUoJN_zxCptBoUPGv9C0fPBUufF",
+                  "description": "Mundaka Upanishad study",
+                  "video_count": 21
+                }
+              ]
+            }
+          }
+        },
+        "ongoing": {
+          "name": "Ongoing",
+          "description": "Current studies across different texts",
+          "texts": {
+            "mundaka_upanishad": {
+              "name": "Mundaka Upanishad",
+              "description": "Mundaka Upanishad study",
+              "playlists": [
+                {
+                  "name": "Mundaka Upanishad",
+                  "playlist_id": "PL7qtWZUUoJN_zxCptBoUPGv9C0fPBUufF",
+                  "description": "Mundaka Upanishad study",
+                  "video_count": 21,
+                  "latest_video_id": "rwVGjDjVoIg"
+                }
+              ]
+            },
+            "bhagavad_gita": {
+              "name": "Bhagavad Gita",
+              "description": "Bhagavad Gita study",
+              "playlists": [
+                {
+                  "name": "Bhagavad Gita",
+                  "playlist_id": "PL7qtWZUUoJN9YstvRqoLl2J9Jwr5qFM6p",
+                  "description": "Bhagavad Gita study",
+                  "video_count": 39,
+                  "latest_video_id": "BKSUgkpL9XE"
+                }
+              ]
+            }
+          }
+        },
+        "bhagawad_gita": {
+          "name": "Bhagavad Gita",
+          "description": "The song of the Lord - practical spirituality",
+          "texts": {
+            "bhagavad_gita": {
+              "name": "Bhagavad Gita",
+              "description": "Bhagavad Gita study",
+              "playlists": [
+                {
+                  "name": "Bhagavad Gita",
+                  "playlist_id": "PL7qtWZUUoJN9YstvRqoLl2J9Jwr5qFM6p",
+                  "description": "Bhagavad Gita study",
+                  "video_count": 39
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "miscellaneous": {
+      "name": "Miscellaneous",
+      "description": "Special programs and general spiritual content",
+      "categories": {
+        "satsang": {
+          "name": "Satsang",
+          "description": "Question and answer sessions, discussions",
+          "texts": {
+            "cbe_satsang_series_2025": {
+              "name": "CBE Satsang Series 2025",
+              "description": "CBE Satsang Series 2025 study",
+              "playlists": [
+                {
+                  "name": "CBE Satsang Series 2025",
+                  "playlist_id": "PL7qtWZUUoJN9JkdkaB-Ka75GEFc6RFeBb",
+                  "description": "CBE Satsang Series 2025 study",
+                  "video_count": 10
+                }
+              ]
+            },
+            "satsang__various_topics": {
+              "name": "Satsang | Various Topics",
+              "description": "Satsang | Various Topics study",
+              "playlists": [
+                {
+                  "name": "Satsang | Various Topics",
+                  "playlist_id": "PL7qtWZUUoJN_KMH12mHhbkCsLZWflK7ZH",
+                  "description": "Satsang | Various Topics study",
+                  "video_count": 45
+                }
+              ]
+            },
+            "tripod_of_vedanata": {
+              "name": "Tripod of Vedanata",
+              "description": "Tripod of Vedanata study",
+              "playlists": [
+                {
+                  "name": "Tripod of Vedanata",
+                  "playlist_id": "PL7qtWZUUoJN-wiOs4yWeQR1JMsCDK2FNV",
+                  "description": "Tripod of Vedanata study",
+                  "video_count": 3
+                }
+              ]
+            },
+            "ramayana": {
+              "name": "Ramayana",
+              "description": "Ramayana study",
+              "playlists": [
+                {
+                  "name": "Ramayana",
+                  "playlist_id": "PL7qtWZUUoJN-c7QwMRJfb0AxNyKYmy4TZ",
+                  "description": "Ramayana study",
+                  "video_count": 48
+                }
+              ]
+            }
+          }
+        },
+        "ongoing": {
+          "name": "Ongoing",
+          "description": "Current studies across different texts",
+          "texts": {
+            "cbe_satsang_series_2025": {
+              "name": "CBE Satsang Series 2025",
+              "description": "CBE Satsang Series 2025 study",
+              "playlists": [
+                {
+                  "name": "CBE Satsang Series 2025",
+                  "playlist_id": "PL7qtWZUUoJN9JkdkaB-Ka75GEFc6RFeBb",
+                  "description": "CBE Satsang Series 2025 study",
+                  "video_count": 10,
+                  "latest_video_id": "KXTo6ADVeg8"
+                }
+              ]
+            }
+          }
+        },
+        "prakaranam": {
+          "name": "Prakaranam",
+          "description": "Introductory and foundational texts",
+          "texts": {
+            "saddarshan": {
+              "name": "Saddarshan",
+              "description": "Saddarshan study",
+              "playlists": [
+                {
+                  "name": "Saddarshan",
+                  "playlist_id": "PL7qtWZUUoJN_BOC6rW90M2EONiRwcd7h3",
+                  "description": "Saddarshan study",
+                  "video_count": 21
+                }
+              ]
+            },
+            "sanath_sujateeyam": {
+              "name": "Sanath Sujateeyam",
+              "description": "Sanath Sujateeyam study",
+              "playlists": [
+                {
+                  "name": "Sanath Sujateeyam",
+                  "playlist_id": "PL7qtWZUUoJN8UtO8FvvGRPtdELKLXU_27",
+                  "description": "Sanath Sujateeyam study",
+                  "video_count": 37
+                }
+              ]
+            },
+            "govindashtakam": {
+              "name": "Govindashtakam",
+              "description": "Govindashtakam study",
+              "playlists": [
+                {
+                  "name": "Govindashtakam",
+                  "playlist_id": "PL7qtWZUUoJN9GGidSE9ICk5ISGuGv__Kg",
+                  "description": "Govindashtakam study",
+                  "video_count": 3
+                }
+              ]
+            },
+            "vedanta_sara": {
+              "name": "Vedanta Sara",
+              "description": "Vedanta Sara study",
+              "playlists": [
+                {
+                  "name": "Vedanta Sara",
+                  "playlist_id": "PL7qtWZUUoJN_4B5kkH1BuzlFT1tzskxsK",
+                  "description": "Vedanta Sara study",
+                  "video_count": 49
+                }
+              ]
+            },
+            "upanishad_essence": {
+              "name": "Upanishad Essence",
+              "description": "Upanishad Essence study",
+              "playlists": [
+                {
+                  "name": "Upanishad Essence",
+                  "playlist_id": "PL7qtWZUUoJN9BJgpNZvwQ-EH7Qj5WDf9l",
+                  "description": "Upanishad Essence study",
+                  "video_count": 7
+                }
+              ]
+            },
+            "value_of_values": {
+              "name": "Value of Values",
+              "description": "Value of Values study",
+              "playlists": [
+                {
+                  "name": "Value of Values",
+                  "playlist_id": "PL7qtWZUUoJN9471EjDMzDh61syc5ZTi7h",
+                  "description": "Value of Values study",
+                  "video_count": 1
+                }
+              ]
+            },
+            "vishnu_sahasranamam": {
+              "name": "Vishnu Sahasranamam",
+              "description": "Vishnu Sahasranamam study",
+              "playlists": [
+                {
+                  "name": "Vishnu Sahasranamam",
+                  "playlist_id": "PL7qtWZUUoJN_Jn16_1LYpszEGKyDt4Qel",
+                  "description": "Vishnu Sahasranamam study",
+                  "video_count": 22
+                }
+              ]
+            }
+          }
+        },
+        "upanishad": {
+          "name": "Upanishads",
+          "description": "Ancient wisdom texts - the culmination of Vedic knowledge",
+          "texts": {
+            "kaivalya_upanishad": {
+              "name": "Kaivalya Upanishad",
+              "description": "Kaivalya Upanishad study",
+              "playlists": [
+                {
+                  "name": "Kaivalya Upanishad",
+                  "playlist_id": "PL7qtWZUUoJN9d7whSWpzSr3XD_AIfsHYy",
+                  "description": "Kaivalya Upanishad study",
+                  "video_count": 13
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "tattvamasi": {
+      "name": "Tattvamasi Batch",
+      "description": "Coimbatore Batch",
+      "categories": {
+        "prakaranam": {
+          "name": "Prakaranam",
+          "description": "Introductory and foundational texts",
+          "texts": {
+            "tattvabodham": {
+              "name": "Tattvabodham",
+              "description": "Tattvabodham study",
+              "playlists": [
+                {
+                  "name": "Tattvabodham",
+                  "playlist_id": "PL7qtWZUUoJN-loWUMfGgHk_GNE_IjDVBp",
+                  "description": "Tattvabodham study",
+                  "video_count": 22
+                }
+              ]
+            },
+            "manisha_panchakam": {
+              "name": "Manisha Panchakam",
+              "description": "Manisha Panchakam study",
+              "playlists": [
+                {
+                  "name": "Manisha Panchakam",
+                  "playlist_id": "PL7qtWZUUoJN_K49Z8rIcjdXUHnDQBUCSo",
+                  "description": "Manisha Panchakam study",
+                  "video_count": 8
+                }
+              ]
+            },
+            "bhaja_govindam": {
+              "name": "Bhaja Govindam",
+              "description": "Bhaja Govindam study",
+              "playlists": [
+                {
+                  "name": "Bhaja Govindam",
+                  "playlist_id": "PL7qtWZUUoJN9ggVSJ_zxHDioJeGF6YFoi",
+                  "description": "Bhaja Govindam study",
+                  "video_count": 12
+                }
+              ]
+            },
+            "upadesa_saram": {
+              "name": "Upadesa Saram",
+              "description": "Upadesa Saram study",
+              "playlists": [
+                {
+                  "name": "Upadesa Saram",
+                  "playlist_id": "PL7qtWZUUoJN9vsBHWF85GwYFs1ij3t3Gv",
+                  "description": "Upadesa Saram study",
+                  "video_count": 12
+                }
+              ]
+            }
+          }
+        },
+        "bhagawad_gita": {
+          "name": "Bhagavad Gita",
+          "description": "The song of the Lord - practical spirituality",
+          "texts": {
+            "bhagavad_gita__ch_1___5": {
+              "name": "Bhagavad Gita | Ch 1 - 5",
+              "description": "Bhagavad Gita | Ch 1 - 5 study",
+              "playlists": [
+                {
+                  "name": "Bhagavad Gita | Ch 1 - 5",
+                  "playlist_id": "PL7qtWZUUoJN_uCv2_3H51xW93FVAQXcpC",
+                  "description": "Bhagavad Gita | Ch 1 - 5 study",
+                  "video_count": 79
+                }
+              ]
+            },
+            "bhagavad_gita__ch_6___9": {
+              "name": "Bhagavad Gita | Ch 6 - 9",
+              "description": "Bhagavad Gita | Ch 6 - 9 study",
+              "playlists": [
+                {
+                  "name": "Bhagavad Gita | Ch 6 - 9",
+                  "playlist_id": "PL7qtWZUUoJN_Ue_cqVP7n5heT7fvs-r2T",
+                  "description": "Bhagavad Gita | Ch 6 - 9 study",
+                  "video_count": 47
+                }
+              ]
+            },
+            "bhagavad_gita__ch_10__": {
+              "name": "Bhagavad Gita | Ch 10 -",
+              "description": "Bhagavad Gita | Ch 10 - study",
+              "playlists": [
+                {
+                  "name": "Bhagavad Gita | Ch 10 -",
+                  "playlist_id": "PL7qtWZUUoJN9eTodpynNoy_jorqNM54KW",
+                  "description": "Bhagavad Gita | Ch 10 - study",
+                  "video_count": 21
+                }
+              ]
+            }
+          }
+        },
+        "upanishad": {
+          "name": "Upanishads",
+          "description": "Ancient wisdom texts - the culmination of Vedic knowledge",
+          "texts": {
+            "mundaka_upanishad": {
+              "name": "Mundaka Upanishad",
+              "description": "Mundaka Upanishad study",
+              "playlists": [
+                {
+                  "name": "Mundaka Upanishad",
+                  "playlist_id": "PL7qtWZUUoJN_KR-NKWkC8kg30g2GMpOt3",
+                  "description": "Mundaka Upanishad study",
+                  "video_count": 42
+                }
+              ]
+            },
+            "kenopanishad": {
+              "name": "Kenopanishad",
+              "description": "Kenopanishad study",
+              "playlists": [
+                {
+                  "name": "Kenopanishad",
+                  "playlist_id": "PL7qtWZUUoJN86oKPdBy3Pkn5iMN1EntEA",
+                  "description": "Kenopanishad study",
+                  "video_count": 12
+                }
+              ]
+            },
+            "ishavasya_upanishad": {
+              "name": "Ishavasya Upanishad",
+              "description": "Ishavasya Upanishad study",
+              "playlists": [
+                {
+                  "name": "Ishavasya Upanishad",
+                  "playlist_id": "PL7qtWZUUoJN-fHSCHo7kQjj80hjkjuuRP",
+                  "description": "Ishavasya Upanishad study",
+                  "video_count": 9
+                }
+              ]
+            },
+            "kaivalya_upanishad": {
+              "name": "Kaivalya Upanishad",
+              "description": "Kaivalya Upanishad study",
+              "playlists": [
+                {
+                  "name": "Kaivalya Upanishad",
+                  "playlist_id": "PL7qtWZUUoJN9NUEPQx1hvn0rxigR23DF9",
+                  "description": "Kaivalya Upanishad study",
+                  "video_count": 14
+                }
+              ]
+            },
+            "kathopanishad": {
+              "name": "Kathopanishad",
+              "description": "Kathopanishad study",
+              "playlists": [
+                {
+                  "name": "Kathopanishad",
+                  "playlist_id": "PL7qtWZUUoJN_BBteWSdwCsIuQ9VUJuIAt",
+                  "description": "Kathopanishad study",
+                  "video_count": 54
+                }
+              ]
+            },
+            "aitareya_upanishad": {
+              "name": "Aitareya Upanishad",
+              "description": "Aitareya Upanishad study",
+              "playlists": [
+                {
+                  "name": "Aitareya Upanishad",
+                  "playlist_id": "PL7qtWZUUoJN_cSWOwCfUCloWkLf951ksU",
+                  "description": "Aitareya Upanishad study",
+                  "video_count": 13
+                }
+              ]
+            },
+            "taittiriya_upanishad": {
+              "name": "Taittiriya Upanishad",
+              "description": "Taittiriya Upanishad study",
+              "playlists": [
+                {
+                  "name": "Taittiriya Upanishad",
+                  "playlist_id": "PL7qtWZUUoJN9KzepCcnktYaSZ6N92sCGN",
+                  "description": "Taittiriya Upanishad study",
+                  "video_count": 55
+                }
+              ]
+            },
+            "prashnopanishad": {
+              "name": "Prashnopanishad",
+              "description": "Prashnopanishad study",
+              "playlists": [
+                {
+                  "name": "Prashnopanishad",
+                  "playlist_id": "PL7qtWZUUoJN-c2-lyARGWmaOeAj8kV42N",
+                  "description": "Prashnopanishad study",
+                  "video_count": 12
+                }
+              ]
+            }
+          }
+        },
+        "ongoing": {
+          "name": "Ongoing",
+          "description": "Current studies across different texts",
+          "texts": {
+            "bhagavad_gita__ch_10__": {
+              "name": "Bhagavad Gita | Ch 10 -",
+              "description": "Bhagavad Gita | Ch 10 - study",
+              "playlists": [
+                {
+                  "name": "Bhagavad Gita | Ch 10 -",
+                  "playlist_id": "PL7qtWZUUoJN9eTodpynNoy_jorqNM54KW",
+                  "description": "Bhagavad Gita | Ch 10 - study",
+                  "video_count": 21,
+                  "latest_video_id": "7Uv1hznUH7E"
+                }
+              ]
+            },
+            "prashnopanishad": {
+              "name": "Prashnopanishad",
+              "description": "Prashnopanishad study",
+              "playlists": [
+                {
+                  "name": "Prashnopanishad",
+                  "playlist_id": "PL7qtWZUUoJN-c2-lyARGWmaOeAj8kV42N",
+                  "description": "Prashnopanishad study",
+                  "video_count": 12,
+                  "latest_video_id": "q2D12FBHaYI"
+                }
+              ]
+            }
+          }
+        },
+        "satsang": {
+          "name": "Satsang",
+          "description": "Question and answer sessions, discussions",
+          "texts": {
+            "introduction_to_vedanta": {
+              "name": "Introduction To Vedanta",
+              "description": "Introduction To Vedanta study",
+              "playlists": [
+                {
+                  "name": "Introduction To Vedanta",
+                  "playlist_id": "PL7qtWZUUoJN8mTCfpC549vLuSkyW0gL2z",
+                  "description": "Introduction To Vedanta study",
+                  "video_count": 9
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "metadata": {
+    "total_batches": 4,
+    "total_categories": 18,
+    "total_texts": 78,
+    "total_playlists": 78,
+    "youtube_api_version": "v3",
+    "cache_duration": 3600,
+    "update_frequency": "daily"
+  }
+}
