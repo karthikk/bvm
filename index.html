@@ -282,23 +282,6 @@
             text-decoration: none;
         }
 
-        .breadcrumb-back {
-            background: rgba(139, 69, 19, 0.1);
-            color: #8b4513;
-            padding: 8px 12px;
-            border-radius: 12px;
-            text-decoration: none;
-            font-weight: 600;
-            display: none;
-            align-items: center;
-            gap: 6px;
-            transition: all 0.3s ease;
-        }
-
-        .breadcrumb-back:hover {
-            background: rgba(139, 69, 19, 0.2);
-            text-decoration: none;
-        }
 
         /* Mobile responsive breadcrumbs */
         @media (max-width: 768px) {
@@ -311,9 +294,6 @@
                 display: none;
             }
 
-            .breadcrumb-back {
-                display: flex;
-            }
 
             .breadcrumb-mobile-title {
                 font-weight: 600;
@@ -670,12 +650,9 @@
             </div>
         </div>
 
-        <!-- MOBILE-FRIENDLY BREADCRUMB CONTAINER -->
+        <!-- BREADCRUMB CONTAINER -->
         <div class="breadcrumb-container" id="breadcrumbContainer">
             <div class="breadcrumb">
-                <a href="javascript:history.back()" class="breadcrumb-back">
-                    ← Back
-                </a>
                 <div class="breadcrumb-content">Home</div>
                 <div class="breadcrumb-mobile-title">Home</div>
             </div>
