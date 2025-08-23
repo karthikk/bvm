@@ -205,18 +205,6 @@
                 }
               ]
             },
-            "soundarya_lahari": {
-              "name": "Soundarya Lahari",
-              "description": "Soundarya Lahari study",
-              "playlists": [
-                {
-                  "name": "Soundarya Lahari",
-                  "playlist_id": "PL7qtWZUUoJN9jY-HYbTEIT4a3USmXjY3h",
-                  "description": "Soundarya Lahari study",
-                  "video_count": 12
-                }
-              ]
-            },
             "advaita_makarandam": {
               "name": "Advaita Makarandam",
               "description": "Advaita Makarandam study",
@@ -500,6 +488,205 @@
         }
       }
     },
+    "miscellaneous": {
+      "name": "Miscellaneous",
+      "description": "Special programs and general spiritual content",
+      "categories": {
+        "prakaranam": {
+          "name": "Prakaranam",
+          "description": "Introductory and foundational texts",
+          "texts": {
+            "soundarya_lahari": {
+              "name": "Soundarya Lahari",
+              "description": "Soundarya Lahari study",
+              "playlists": [
+                {
+                  "name": "Soundarya Lahari",
+                  "playlist_id": "PL7qtWZUUoJN9jY-HYbTEIT4a3USmXjY3h",
+                  "description": "Soundarya Lahari study",
+                  "video_count": 12
+                }
+              ]
+            },
+            "saddarshan": {
+              "name": "Saddarshan",
+              "description": "Saddarshan study",
+              "playlists": [
+                {
+                  "name": "Saddarshan",
+                  "playlist_id": "PL7qtWZUUoJN_BOC6rW90M2EONiRwcd7h3",
+                  "description": "Saddarshan study",
+                  "video_count": 21
+                }
+              ]
+            },
+            "sanath_sujateeyam": {
+              "name": "Sanath Sujateeyam",
+              "description": "Sanath Sujateeyam study",
+              "playlists": [
+                {
+                  "name": "Sanath Sujateeyam",
+                  "playlist_id": "PL7qtWZUUoJN8UtO8FvvGRPtdELKLXU_27",
+                  "description": "Sanath Sujateeyam study",
+                  "video_count": 37
+                }
+              ]
+            },
+            "govindashtakam": {
+              "name": "Govindashtakam",
+              "description": "Govindashtakam study",
+              "playlists": [
+                {
+                  "name": "Govindashtakam",
+                  "playlist_id": "PL7qtWZUUoJN9GGidSE9ICk5ISGuGv__Kg",
+                  "description": "Govindashtakam study",
+                  "video_count": 3
+                }
+              ]
+            },
+            "vedanta_sara": {
+              "name": "Vedanta Sara",
+              "description": "Vedanta Sara study",
+              "playlists": [
+                {
+                  "name": "Vedanta Sara",
+                  "playlist_id": "PL7qtWZUUoJN_4B5kkH1BuzlFT1tzskxsK",
+                  "description": "Vedanta Sara study",
+                  "video_count": 49
+                }
+              ]
+            },
+            "upanishad_essence": {
+              "name": "Upanishad Essence",
+              "description": "Upanishad Essence study",
+              "playlists": [
+                {
+                  "name": "Upanishad Essence",
+                  "playlist_id": "PL7qtWZUUoJN9BJgpNZvwQ-EH7Qj5WDf9l",
+                  "description": "Upanishad Essence study",
+                  "video_count": 7
+                }
+              ]
+            },
+            "value_of_values": {
+              "name": "Value of Values",
+              "description": "Value of Values study",
+              "playlists": [
+                {
+                  "name": "Value of Values",
+                  "playlist_id": "PL7qtWZUUoJN9471EjDMzDh61syc5ZTi7h",
+                  "description": "Value of Values study",
+                  "video_count": 1
+                }
+              ]
+            },
+            "vishnu_sahasranamam": {
+              "name": "Vishnu Sahasranamam",
+              "description": "Vishnu Sahasranamam study",
+              "playlists": [
+                {
+                  "name": "Vishnu Sahasranamam",
+                  "playlist_id": "PL7qtWZUUoJN_Jn16_1LYpszEGKyDt4Qel",
+                  "description": "Vishnu Sahasranamam study",
+                  "video_count": 22
+                }
+              ]
+            }
+          }
+        },
+        "satsang": {
+          "name": "Satsang",
+          "description": "Question and answer sessions, discussions",
+          "texts": {
+            "cbe_satsang_series_2025": {
+              "name": "CBE Satsang Series 2025",
+              "description": "CBE Satsang Series 2025 study",
+              "playlists": [
+                {
+                  "name": "CBE Satsang Series 2025",
+                  "playlist_id": "PL7qtWZUUoJN9JkdkaB-Ka75GEFc6RFeBb",
+                  "description": "CBE Satsang Series 2025 study",
+                  "video_count": 10
+                }
+              ]
+            },
+            "satsang__various_topics": {
+              "name": "Satsang | Various Topics",
+              "description": "Satsang | Various Topics study",
+              "playlists": [
+                {
+                  "name": "Satsang | Various Topics",
+                  "playlist_id": "PL7qtWZUUoJN_KMH12mHhbkCsLZWflK7ZH",
+                  "description": "Satsang | Various Topics study",
+                  "video_count": 45
+                }
+              ]
+            },
+            "tripod_of_vedanata": {
+              "name": "Tripod of Vedanata",
+              "description": "Tripod of Vedanata study",
+              "playlists": [
+                {
+                  "name": "Tripod of Vedanata",
+                  "playlist_id": "PL7qtWZUUoJN-wiOs4yWeQR1JMsCDK2FNV",
+                  "description": "Tripod of Vedanata study",
+                  "video_count": 3
+                }
+              ]
+            },
+            "ramayana": {
+              "name": "Ramayana",
+              "description": "Ramayana study",
+              "playlists": [
+                {
+                  "name": "Ramayana",
+                  "playlist_id": "PL7qtWZUUoJN-c7QwMRJfb0AxNyKYmy4TZ",
+                  "description": "Ramayana study",
+                  "video_count": 48
+                }
+              ]
+            }
+          }
+        },
+        "ongoing": {
+          "name": "Ongoing",
+          "description": "Current studies across different texts",
+          "texts": {
+            "cbe_satsang_series_2025": {
+              "name": "CBE Satsang Series 2025",
+              "description": "CBE Satsang Series 2025 study",
+              "playlists": [
+                {
+                  "name": "CBE Satsang Series 2025",
+                  "playlist_id": "PL7qtWZUUoJN9JkdkaB-Ka75GEFc6RFeBb",
+                  "description": "CBE Satsang Series 2025 study",
+                  "video_count": 10,
+                  "latest_video_id": "KXTo6ADVeg8"
+                }
+              ]
+            }
+          }
+        },
+        "upanishad": {
+          "name": "Upanishads",
+          "description": "Ancient wisdom texts - the culmination of Vedic knowledge",
+          "texts": {
+            "kaivalya_upanishad": {
+              "name": "Kaivalya Upanishad",
+              "description": "Kaivalya Upanishad study",
+              "playlists": [
+                {
+                  "name": "Kaivalya Upanishad",
+                  "playlist_id": "PL7qtWZUUoJN9d7whSWpzSr3XD_AIfsHYy",
+                  "description": "Kaivalya Upanishad study",
+                  "video_count": 13
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
     "jignasu": {
       "name": "Jignasu Batch",
       "description": "2024-2028",
@@ -633,193 +820,6 @@
                   "playlist_id": "PL7qtWZUUoJN9YstvRqoLl2J9Jwr5qFM6p",
                   "description": "Bhagavad Gita study",
                   "video_count": 39
-                }
-              ]
-            }
-          }
-        }
-      }
-    },
-    "miscellaneous": {
-      "name": "Miscellaneous",
-      "description": "Special programs and general spiritual content",
-      "categories": {
-        "satsang": {
-          "name": "Satsang",
-          "description": "Question and answer sessions, discussions",
-          "texts": {
-            "cbe_satsang_series_2025": {
-              "name": "CBE Satsang Series 2025",
-              "description": "CBE Satsang Series 2025 study",
-              "playlists": [
-                {
-                  "name": "CBE Satsang Series 2025",
-                  "playlist_id": "PL7qtWZUUoJN9JkdkaB-Ka75GEFc6RFeBb",
-                  "description": "CBE Satsang Series 2025 study",
-                  "video_count": 10
-                }
-              ]
-            },
-            "satsang__various_topics": {
-              "name": "Satsang | Various Topics",
-              "description": "Satsang | Various Topics study",
-              "playlists": [
-                {
-                  "name": "Satsang | Various Topics",
-                  "playlist_id": "PL7qtWZUUoJN_KMH12mHhbkCsLZWflK7ZH",
-                  "description": "Satsang | Various Topics study",
-                  "video_count": 45
-                }
-              ]
-            },
-            "tripod_of_vedanata": {
-              "name": "Tripod of Vedanata",
-              "description": "Tripod of Vedanata study",
-              "playlists": [
-                {
-                  "name": "Tripod of Vedanata",
-                  "playlist_id": "PL7qtWZUUoJN-wiOs4yWeQR1JMsCDK2FNV",
-                  "description": "Tripod of Vedanata study",
-                  "video_count": 3
-                }
-              ]
-            },
-            "ramayana": {
-              "name": "Ramayana",
-              "description": "Ramayana study",
-              "playlists": [
-                {
-                  "name": "Ramayana",
-                  "playlist_id": "PL7qtWZUUoJN-c7QwMRJfb0AxNyKYmy4TZ",
-                  "description": "Ramayana study",
-                  "video_count": 48
-                }
-              ]
-            }
-          }
-        },
-        "ongoing": {
-          "name": "Ongoing",
-          "description": "Current studies across different texts",
-          "texts": {
-            "cbe_satsang_series_2025": {
-              "name": "CBE Satsang Series 2025",
-              "description": "CBE Satsang Series 2025 study",
-              "playlists": [
-                {
-                  "name": "CBE Satsang Series 2025",
-                  "playlist_id": "PL7qtWZUUoJN9JkdkaB-Ka75GEFc6RFeBb",
-                  "description": "CBE Satsang Series 2025 study",
-                  "video_count": 10,
-                  "latest_video_id": "KXTo6ADVeg8"
-                }
-              ]
-            }
-          }
-        },
-        "prakaranam": {
-          "name": "Prakaranam",
-          "description": "Introductory and foundational texts",
-          "texts": {
-            "saddarshan": {
-              "name": "Saddarshan",
-              "description": "Saddarshan study",
-              "playlists": [
-                {
-                  "name": "Saddarshan",
-                  "playlist_id": "PL7qtWZUUoJN_BOC6rW90M2EONiRwcd7h3",
-                  "description": "Saddarshan study",
-                  "video_count": 21
-                }
-              ]
-            },
-            "sanath_sujateeyam": {
-              "name": "Sanath Sujateeyam",
-              "description": "Sanath Sujateeyam study",
-              "playlists": [
-                {
-                  "name": "Sanath Sujateeyam",
-                  "playlist_id": "PL7qtWZUUoJN8UtO8FvvGRPtdELKLXU_27",
-                  "description": "Sanath Sujateeyam study",
-                  "video_count": 37
-                }
-              ]
-            },
-            "govindashtakam": {
-              "name": "Govindashtakam",
-              "description": "Govindashtakam study",
-              "playlists": [
-                {
-                  "name": "Govindashtakam",
-                  "playlist_id": "PL7qtWZUUoJN9GGidSE9ICk5ISGuGv__Kg",
-                  "description": "Govindashtakam study",
-                  "video_count": 3
-                }
-              ]
-            },
-            "vedanta_sara": {
-              "name": "Vedanta Sara",
-              "description": "Vedanta Sara study",
-              "playlists": [
-                {
-                  "name": "Vedanta Sara",
-                  "playlist_id": "PL7qtWZUUoJN_4B5kkH1BuzlFT1tzskxsK",
-                  "description": "Vedanta Sara study",
-                  "video_count": 49
-                }
-              ]
-            },
-            "upanishad_essence": {
-              "name": "Upanishad Essence",
-              "description": "Upanishad Essence study",
-              "playlists": [
-                {
-                  "name": "Upanishad Essence",
-                  "playlist_id": "PL7qtWZUUoJN9BJgpNZvwQ-EH7Qj5WDf9l",
-                  "description": "Upanishad Essence study",
-                  "video_count": 7
-                }
-              ]
-            },
-            "value_of_values": {
-              "name": "Value of Values",
-              "description": "Value of Values study",
-              "playlists": [
-                {
-                  "name": "Value of Values",
-                  "playlist_id": "PL7qtWZUUoJN9471EjDMzDh61syc5ZTi7h",
-                  "description": "Value of Values study",
-                  "video_count": 1
-                }
-              ]
-            },
-            "vishnu_sahasranamam": {
-              "name": "Vishnu Sahasranamam",
-              "description": "Vishnu Sahasranamam study",
-              "playlists": [
-                {
-                  "name": "Vishnu Sahasranamam",
-                  "playlist_id": "PL7qtWZUUoJN_Jn16_1LYpszEGKyDt4Qel",
-                  "description": "Vishnu Sahasranamam study",
-                  "video_count": 22
-                }
-              ]
-            }
-          }
-        },
-        "upanishad": {
-          "name": "Upanishads",
-          "description": "Ancient wisdom texts - the culmination of Vedic knowledge",
-          "texts": {
-            "kaivalya_upanishad": {
-              "name": "Kaivalya Upanishad",
-              "description": "Kaivalya Upanishad study",
-              "playlists": [
-                {
-                  "name": "Kaivalya Upanishad",
-                  "playlist_id": "PL7qtWZUUoJN9d7whSWpzSr3XD_AIfsHYy",
-                  "description": "Kaivalya Upanishad study",
-                  "video_count": 13
                 }
               ]
             }

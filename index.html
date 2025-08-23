@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Brahma Vidya Mandir - Learning Portal</title>
-    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&family=Source+Sans+Pro:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&family=Source+Sans+Pro:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
     <style>
         * {
             margin: 0;
@@ -17,8 +19,26 @@
             font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
             line-height: 1.6;
             color: #2d3748;
-            background: rgb(251, 249, 244);
             min-height: 100vh;
+            margin: 0;
+            padding: 0;
+            position: relative;
+            overflow-x: hidden;
+        }
+
+
+        .background-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background: linear-gradient(135deg,
+                    rgba(251, 249, 244, 0.85) 0%,
+                    rgba(248, 246, 240, 0.8) 50%,
+                    rgba(245, 243, 237, 0.85) 100%);
+            backdrop-filter: blur(1px);
         }
 
         .container {
@@ -29,12 +49,18 @@
 
         .header {
             text-align: center;
+            padding: 24px 20px;
+            background-image:
+                linear-gradient(145deg, rgba(255, 255, 255, 0.92), rgba(252, 251, 248, 0.88)),
+                url('images/dakshinamurthy.jpg');
+            background-size: auto, cover;
+            background-position: center, center 27%;
+            background-repeat: no-repeat, no-repeat;
+            backdrop-filter: blur(15px);
+            border-radius: 0 0 25px 25px;
             margin-bottom: 20px;
-            background: linear-gradient(135deg, rgba(255, 255, 255, 0.95), rgba(249, 246, 242, 0.9));
-            padding: 25px 30px;
-            border-radius: 16px;
             box-shadow: 0 8px 32px rgba(139, 69, 19, 0.12);
-            border: 1px solid rgba(160, 82, 45, 0.2);
+            border: 1px solid rgba(255, 255, 255, 0.3);
         }
 
         .sanskrit-text {
@@ -55,12 +81,120 @@
             text-shadow: 0 2px 4px rgba(139, 69, 19, 0.1);
         }
 
+        .acharya-section {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            margin-top: 16px;
+            flex-wrap: wrap;
+        }
+
+        .guruji-photo {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            object-fit: cover;
+            object-position: 60% 20%;
+            transform: scale(1.5);
+            border: 3px solid rgba(160, 82, 45, 0.4);
+            box-shadow:
+                0 6px 20px rgba(160, 82, 45, 0.2),
+                0 2px 8px rgba(139, 69, 19, 0.1);
+            transition: all 0.3s ease;
+            filter: sepia(10%) saturate(110%) brightness(105%);
+        }
+
+        .guruji-photo:hover {
+            transform: scale(1.05);
+            border-color: rgba(160, 82, 45, 0.6);
+            box-shadow:
+                0 8px 25px rgba(160, 82, 45, 0.3),
+                0 4px 12px rgba(139, 69, 19, 0.15);
+        }
+
         .acharya-credit {
             font-family: 'Source Sans Pro', sans-serif;
             font-size: 1.1rem;
             color: #a0522d;
             font-weight: 500;
             font-style: italic;
+            text-shadow: 0 1px 2px rgba(160, 82, 45, 0.1);
+        }
+
+        /* New header layout with sage images */
+        .header-main {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            margin: 16px 0;
+        }
+
+        .sage-image {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            transition: transform 0.3s ease;
+        }
+
+        .sage-image:hover {
+            transform: translateY(-3px);
+        }
+
+        .sage-image img {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid rgba(139, 69, 19, 0.3);
+            box-shadow: 0 6px 20px rgba(139, 69, 19, 0.2);
+            transition: all 0.3s ease;
+        }
+
+        .sage-image img:hover {
+            border-color: rgba(139, 69, 19, 0.5);
+            box-shadow: 0 8px 25px rgba(139, 69, 19, 0.3);
+        }
+
+        .sage-label {
+            font-size: 0.8rem;
+            color: #8b4513;
+            margin-top: 6px;
+            font-weight: 600;
+        }
+
+        /* Mobile responsiveness for header */
+        @media (max-width: 768px) {
+            .header-main {
+                gap: 12px;
+            }
+
+            .sage-image img {
+                width: 45px;
+                height: 45px;
+            }
+
+            .sage-label {
+                font-size: 0.7rem;
+            }
+
+            .header h1 {
+                font-size: 2.2rem;
+            }
+
+            .sanskrit-text {
+                font-size: 1rem;
+            }
+
+            .guruji-photo {
+                width: 40px;
+                height: 40px;
+            }
+
+            .acharya-credit {
+                font-size: 1rem;
+            }
         }
 
 
@@ -100,35 +234,96 @@
             display: block;
         }
 
-        /* Breadcrumb between header and content */
+        /* Mobile-friendly breadcrumb system */
         .breadcrumb-container {
-            margin: 20px 0;
-            padding: 0;
+            margin: 12px 0;
+            padding: 0 16px;
         }
-        
+
         .breadcrumb {
-            background: rgba(139, 69, 19, 0.1);
-            padding: 14px 24px;
-            border-radius: 25px;
-            font-size: 1rem;
+            background: rgba(255, 255, 255, 0.95);
+            padding: 12px 20px;
+            border-radius: 20px;
+            font-size: 0.9rem;
             font-weight: 500;
-            border: 1px solid rgba(139, 69, 19, 0.2);
+            border: 1px solid rgba(139, 69, 19, 0.15);
             color: #8b4513;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 4px 12px rgba(139, 69, 19, 0.1);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            min-height: 44px;
+        }
+
+        .breadcrumb-content {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 4px;
         }
 
         .breadcrumb a {
             color: #d2691e;
             text-decoration: none;
             font-weight: 500;
-            padding: 6px 12px;
-            border-radius: 16px;
+            padding: 8px 12px;
+            border-radius: 12px;
             transition: all 0.3s ease;
+            white-space: nowrap;
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
         }
 
         .breadcrumb a:hover {
             background: rgba(210, 105, 30, 0.1);
             color: #8b4513;
             text-decoration: none;
+        }
+
+        .breadcrumb-back {
+            background: rgba(139, 69, 19, 0.1);
+            color: #8b4513;
+            padding: 8px 12px;
+            border-radius: 12px;
+            text-decoration: none;
+            font-weight: 600;
+            display: none;
+            align-items: center;
+            gap: 6px;
+            transition: all 0.3s ease;
+        }
+
+        .breadcrumb-back:hover {
+            background: rgba(139, 69, 19, 0.2);
+            text-decoration: none;
+        }
+
+        /* Mobile responsive breadcrumbs */
+        @media (max-width: 768px) {
+            .breadcrumb {
+                padding: 10px 16px;
+                font-size: 0.85rem;
+            }
+
+            .breadcrumb-content {
+                display: none;
+            }
+
+            .breadcrumb-back {
+                display: flex;
+            }
+
+            .breadcrumb-mobile-title {
+                font-weight: 600;
+                color: #8b4513;
+                flex: 1;
+                text-align: center;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
         }
 
         .breadcrumb-separator {
@@ -146,30 +341,95 @@
         }
 
         .card {
-            background: linear-gradient(145deg, rgba(255, 255, 255, 0.95), rgba(248, 250, 252, 0.9));
-            border-radius: 18px;
-            padding: 28px;
-            box-shadow: 0 4px 16px rgba(139, 69, 19, 0.08), 0 2px 8px rgba(160, 82, 45, 0.04);
-            transition: transform 0.4s cubic-bezier(0.25, 0.8, 0.25, 1), box-shadow 0.4s cubic-bezier(0.25, 0.8, 0.25, 1), border-color 0.4s ease;
+            background: linear-gradient(145deg,
+                    rgba(255, 255, 255, 0.98),
+                    rgba(252, 251, 248, 0.95));
+            border-radius: 20px;
+            padding: 32px;
+            box-shadow:
+                0 8px 32px rgba(139, 69, 19, 0.1),
+                0 4px 16px rgba(160, 82, 45, 0.06),
+                inset 0 1px 0 rgba(255, 255, 255, 0.8);
+            transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
             text-decoration: none;
             color: inherit;
             display: block;
-            border: 1px solid rgba(160, 82, 45, 0.15);
+            border: 1px solid rgba(139, 69, 19, 0.12);
             position: relative;
-            backdrop-filter: blur(10px);
+            backdrop-filter: blur(15px);
+            overflow: hidden;
         }
 
-        .card::before {
+        /* Batch background images - full card size */
+        .card-dhanyosi {
+            background-image:
+                linear-gradient(145deg, rgba(255, 255, 255, 0.85), rgba(252, 251, 248, 0.80)),
+                url('images/dhanyosi.jpg');
+            background-size: auto, cover;
+            background-position: center, center;
+            background-repeat: no-repeat, no-repeat;
+        }
+
+        .card-jignasu {
+            background-image:
+                linear-gradient(145deg, rgba(255, 255, 255, 0.85), rgba(252, 251, 248, 0.80)),
+                url('images/jignasu.jpg');
+            background-size: auto, cover;
+            background-position: center, center 70%;
+            background-repeat: no-repeat, no-repeat;
+        }
+
+        .card-tattvamasi {
+            background-image:
+                linear-gradient(145deg, rgba(255, 255, 255, 0.85), rgba(252, 251, 248, 0.80)),
+                url('images/tattvamasi.jpg');
+            background-size: auto, cover;
+            background-position: center, center;
+            background-repeat: no-repeat, no-repeat;
+        }
+
+        /* Category background images - full card size */
+        .card-bhagawad_gita {
+            background-image:
+                linear-gradient(145deg, rgba(255, 255, 255, 0.85), rgba(252, 251, 248, 0.80)),
+                url('images/gita.jpg');
+            background-size: auto, cover;
+            background-position: center, center top;
+            background-repeat: no-repeat, no-repeat;
+        }
+
+        .card-prakaranam {
+            background-image:
+                linear-gradient(145deg, rgba(255, 255, 255, 0.85), rgba(252, 251, 248, 0.80)),
+                url('images/prakaranam.jpg');
+            background-size: auto, cover;
+            background-position: center, center 10%;
+            background-repeat: no-repeat, no-repeat;
+        }
+
+        .card-upanishad {
+            background-image:
+                linear-gradient(145deg, rgba(255, 255, 255, 0.85), rgba(252, 251, 248, 0.80)),
+                url('images/upanishad.jpg');
+            background-size: auto, cover;
+            background-position: center, center;
+            background-repeat: no-repeat, no-repeat;
+        }
+
+        .card::after {
             content: '';
             position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            height: 4px;
-            background: linear-gradient(90deg, #d2691e, #cd853f, #daa520);
-            border-radius: 18px 18px 0 0;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: linear-gradient(45deg,
+                    transparent 30%,
+                    rgba(255, 255, 255, 0.15) 50%,
+                    transparent 70%);
+            transform: rotate(-45deg);
+            transition: all 0.6s ease;
             opacity: 0;
-            transition: opacity 0.3s ease;
             pointer-events: none;
         }
 
@@ -177,12 +437,20 @@
             opacity: 1;
         }
 
+        .card:hover::after {
+            opacity: 1;
+            transform: rotate(-45deg) translate(50%, 50%);
+        }
+
         .card:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 8px 24px rgba(139, 69, 19, 0.12), 0 4px 12px rgba(160, 82, 45, 0.06);
+            transform: translateY(-6px) scale(1.015);
+            box-shadow:
+                0 20px 40px rgba(139, 69, 19, 0.15),
+                0 8px 20px rgba(160, 82, 45, 0.1),
+                inset 0 1px 0 rgba(255, 255, 255, 0.9);
             text-decoration: none;
             color: inherit;
-            border-color: rgba(160, 82, 45, 0.2);
+            border-color: rgba(139, 69, 19, 0.2);
         }
 
         /* Text cards that contain playlist buttons */
@@ -358,16 +626,39 @@
 </head>
 
 <body>
+    <div class="background-overlay"></div>
+
     <div class="container">
         <div class="header">
-            <div class="sanskrit-text">श्री गुरुभ्यो नमः</div>
-            <h1><a href="#home" style="text-decoration: none; color: inherit;">🕉️ Brahma Vidya Mandir</a></h1>
-            <div class="acharya-credit">Classes by Acharya Shri Rangaji</div>
+            <div class="sanskrit-text">|| श्री गुरुभ्यो नमः ||</div>
+            <div class="header-main">
+                <div class="sage-image sage-left">
+                    <img src="images/vyasa.png" alt="Sage Vyasa" />
+                    <div class="sage-label">|| व्यासाय नमः ||</div>
+                </div>
+                <div class="header-title">
+                    <h1><a href="#home" style="text-decoration: none; color: inherit;">Brahma Vidya Mandir</a></h1>
+                </div>
+                <div class="sage-image sage-right">
+                    <img src="images/shankara.png" alt="Adi Shankara" />
+                    <div class="sage-label">|| शंकराय नमः ||</div>
+                </div>
+            </div>
+            <div class="acharya-section">
+                <img src="images/guruji.jpeg" alt="Acharya Shri Rangaji" class="guruji-photo" />
+                <div class="acharya-credit">Classes by Acharya Shri Rangaji</div>
+            </div>
         </div>
 
-        <!-- BREADCRUMB CONTAINER -->
+        <!-- MOBILE-FRIENDLY BREADCRUMB CONTAINER -->
         <div class="breadcrumb-container" id="breadcrumbContainer">
-            <div class="breadcrumb">Home</div>
+            <div class="breadcrumb">
+                <a href="javascript:history.back()" class="breadcrumb-back">
+                    ← Back
+                </a>
+                <div class="breadcrumb-content">Home</div>
+                <div class="breadcrumb-mobile-title">Home</div>
+            </div>
         </div>
 
         <input type="text" class="search-box" id="searchBox" placeholder="Search across all classes..."
@@ -427,7 +718,7 @@
                 // Create card HTML
                 const card = document.createElement('a');
                 card.href = `#${batchId}`;
-                card.className = 'card';
+                card.className = `card card-${batchId}`;
                 card.innerHTML = `
                     <h3>${batch.name}</h3>
                     <p>${batch.description}</p>
@@ -480,12 +771,12 @@
             const ongoingEntry = categoryEntries.find(([id, cat]) => id === 'ongoing');
             const otherEntries = categoryEntries.filter(([id, cat]) => id !== 'ongoing');
             const orderedEntries = ongoingEntry ? [ongoingEntry, ...otherEntries] : otherEntries;
-            
+
             const categoriesHTML = orderedEntries.map(([categoryId, category]) => {
                 const textCount = Object.keys(category.texts).length;
-                
+
                 return `
-                    <a href="#${batchId}-${categoryId}" class="card">
+                    <a href="#${batchId}-${categoryId}" class="card card-${categoryId.replace(/\s+/g, '').toLowerCase()}">
                         <h3>${category.name}</h3>
                         <p>${category.description}</p>
                         <div class="card-stats">
@@ -516,13 +807,13 @@
             const textsHTML = Object.entries(category.texts).map(([textId, text]) => {
                 const playlistCount = text.playlists.length;
                 const totalVideos = text.playlists.reduce((sum, playlist) => sum + (playlist.video_count || 0), 0);
-                
+
                 // Generate playlist buttons for each text
                 const playlistButtonsHTML = text.playlists.map(playlist => {
-                    const latestVideoButton = (playlist.latest_video_id && categoryId === 'ongoing') 
+                    const latestVideoButton = (playlist.latest_video_id && categoryId === 'ongoing')
                         ? `<a href="https://youtube.com/watch?v=${playlist.latest_video_id}&list=${playlist.playlist_id}" target="_blank" class="btn btn-secondary btn-small">▶️ Latest</a>`
                         : '';
-                    
+
                     return `
                         <div class="playlist-actions">
                             <a href="https://youtube.com/playlist?list=${playlist.playlist_id}" target="_blank" class="btn btn-primary btn-small">📺 View Playlist</a>
@@ -530,9 +821,9 @@
                         </div>
                     `;
                 }).join('');
-                
+
                 return `
-                    <div class="card text-card">
+                    <div class="card text-card card-${categoryId.replace(/\s+/g, '').toLowerCase()}">
                         <div class="card-header">
                             <h3>${text.name}</h3>
                             <div class="card-stats">
@@ -560,7 +851,7 @@
         }
 
 
-        
+
         // Simple data structure for playlist IDs (fallback)
         const playlistData = {
             'brihadaranyaka-part1': 'TODO', // Replace with actual playlist ID
@@ -630,53 +921,60 @@
             document.getElementById('brihadaranyaka-videos').textContent = totalVideos;
         }
 
-        // Dynamic breadcrumb management using siteData
+        // Mobile-friendly breadcrumb management
         function updateBreadcrumb(target) {
             const container = document.getElementById('breadcrumbContainer');
-            const breadcrumb = container.querySelector('.breadcrumb');
-            
-            if (!breadcrumb) return;
-            
+            const breadcrumbContent = container.querySelector('.breadcrumb-content');
+            const mobileTitle = container.querySelector('.breadcrumb-mobile-title');
+
+            if (!breadcrumbContent || !mobileTitle) return;
+
             let breadcrumbHTML = '';
-            
+            let mobileText = '';
+
             if (target === 'home' || !target) {
                 breadcrumbHTML = 'Home';
+                mobileText = 'Home';
             } else if (siteData && siteData.batches) {
-                // Parse the target to determine the breadcrumb path
                 const parts = target.split('-');
-                
+
                 if (parts.length === 1) {
-                    // Batch level (e.g., 'dhanyosi')
+                    // Batch level
                     const batchId = parts[0];
                     const batch = siteData.batches[batchId];
                     if (batch) {
                         breadcrumbHTML = `<a href="#home">Home</a><span class="breadcrumb-separator"> › </span>${batch.name}`;
+                        mobileText = batch.name;
                     } else {
                         breadcrumbHTML = `<a href="#home">Home</a><span class="breadcrumb-separator"> › </span>${parts[0]}`;
+                        mobileText = parts[0];
                     }
                 } else if (parts.length === 2) {
-                    // Category level (e.g., 'dhanyosi-ongoing')
+                    // Category level
                     const [batchId, categoryId] = parts;
                     const batch = siteData.batches[batchId];
                     const category = batch?.categories[categoryId];
                     if (batch && category) {
                         breadcrumbHTML = `<a href="#home">Home</a><span class="breadcrumb-separator"> › </span><a href="#${batchId}">${batch.name}</a><span class="breadcrumb-separator"> › </span>${category.name}`;
+                        mobileText = `${category.name} - ${batch.name}`;
                     } else if (batch) {
                         breadcrumbHTML = `<a href="#home">Home</a><span class="breadcrumb-separator"> › </span><a href="#${batchId}">${batch.name}</a><span class="breadcrumb-separator"> › </span>${categoryId}`;
+                        mobileText = `${categoryId} - ${batch.name}`;
                     } else {
-                        breadcrumbHTML = `<a href="#home">Home</a><span class="breadcrumb-separator"> › </span>${batchId}<span class="breadcrumb-separator"> › </span>${categoryId}`;
+                        breadcrumbHTML = `<a href="#home">Home</a><span class="breadcrumb-separator"> › </span>${target}`;
+                        mobileText = target;
                     }
                 } else {
-                    // Fallback for any other navigation patterns
                     breadcrumbHTML = `<a href="#home">Home</a><span class="breadcrumb-separator"> › </span>${target}`;
+                    mobileText = target;
                 }
             } else {
-                // Fallback if siteData not loaded yet - show basic breadcrumb
                 breadcrumbHTML = `<a href="#home">Home</a><span class="breadcrumb-separator"> › </span>${target}`;
+                mobileText = target;
             }
-            
-            // Always show breadcrumbs
-            breadcrumb.innerHTML = breadcrumbHTML;
+
+            breadcrumbContent.innerHTML = breadcrumbHTML;
+            mobileTitle.textContent = mobileText;
         }
 
         function initializeNavigation() {
@@ -694,15 +992,15 @@
             // Show target page or home
             const target = window.location.hash.slice(1) || 'home';
             const targetPage = document.getElementById(target);
-            
+
             if (targetPage) {
                 targetPage.classList.add('active');
                 updateBreadcrumb(target);
-                
+
                 // Hide/show home page and home cards
                 const homePage = document.getElementById('home');
                 const homeGrid = homePage ? homePage.querySelector('.grid') : null;
-                
+
                 if (target !== 'home') {
                     // Hide home page completely when navigating away
                     homePage.style.display = 'none';
@@ -717,7 +1015,7 @@
                         homeGrid.style.display = 'grid';
                     }
                 }
-                
+
                 // Smooth scroll to top when navigating
                 window.scrollTo({ top: 0, behavior: 'smooth' });
 
@@ -729,7 +1027,7 @@
                 // Fallback to home if target page doesn't exist
                 const homePage = document.getElementById('home');
                 const homeGrid = homePage ? homePage.querySelector('.grid') : null;
-                
+
                 homePage.classList.add('active');
                 homePage.style.display = 'block';
                 if (homeGrid) {
@@ -739,10 +1037,32 @@
                 window.scrollTo({ top: 0, behavior: 'smooth' });
             }
         }
-        
+
+        // Static background system (bg1-6 images removed)
+        function initializeBackgroundSystem() {
+            // Just set static overlay based on time of day
+            const hour = new Date().getHours();
+            const overlay = document.querySelector('.background-overlay');
+
+            if (hour >= 6 && hour < 18) {
+                // Daytime: lighter overlay
+                overlay.style.background = `linear-gradient(135deg, 
+                    rgba(251, 249, 244, 0.8) 0%, 
+                    rgba(248, 246, 240, 0.75) 50%,
+                    rgba(245, 243, 237, 0.8) 100%)`;
+            } else {
+                // Evening/Night: slightly warmer overlay
+                overlay.style.background = `linear-gradient(135deg, 
+                    rgba(251, 249, 244, 0.85) 0%, 
+                    rgba(248, 246, 240, 0.8) 50%,
+                    rgba(245, 243, 237, 0.85) 100%)`;
+            }
+        }
+
         // Initial page load
-        document.addEventListener('DOMContentLoaded', function() {
+        document.addEventListener('DOMContentLoaded', function () {
             loadSiteData();
+            initializeBackgroundSystem();
         });
 
         // Legacy YouTube API call for existing pages
@@ -751,4 +1071,5 @@
         }
     </script>
 </body>
+
 </html>
